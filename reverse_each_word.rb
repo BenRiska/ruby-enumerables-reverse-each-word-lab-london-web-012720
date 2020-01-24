@@ -3,7 +3,7 @@ def reverse_each_word(str)
 output = ''
 array = str.split('')
 
-str.each do |n|
+array.each do |n|
 n.reverse
 output += `#{n} `
 end
